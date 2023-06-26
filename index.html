@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--nav-->
+<div class="top">
+    <ul class="top_icons">
+        <li title="chat" id="chatIcn"class="chatIcn"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></li>
+        <li title="call"id="callIcn"class="callIcn"><ion-icon name="call-outline"></ion-icon></li>
+        <li title="status"id="statusIcn"class="statusIcn"><ion-icon name="scan-circle-outline"></ion-icon></li>
+
+    </ul>
+</div>
+<div class="bottom">
+    <ul class="bottom_icons">
+        <li title="setting"><ion-icon name="settings-outline"></ion-icon></li>
+        <li><div class="userImage   ">
+            <img src="assets/img/user.jpeg" alt="user.jpeg" title="profile" class="cover" >
+        </div></li>
+
+    </ul>
+</div>
+
+<!--chat-->
+<section id="chat" class="chat">
+    <div class="container">
+        <div class="leftSide">
+            <div class="header">
+                <h2>Chats</h2>
+
+                <ul class="nav_icons">
+                    <li><ion-icon name="create-outline"></ion-icon></li>
+                    <li><ion-icon name="ellipsis-horizontal-outline"></ion-icon></li>
+
+                </ul>
+            </div>
+            <div class="search">
+                <div>
+                    <input type="text"placeholder="search or start a new chat">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+            </div>
+            <div id="user01" class="user01">
+                <div class="details">
+                    <div class="block">
+                        <div class="imgBx">
+                            <img src="assets/img/person.jpg" alt=""class="cover">
+                        </div>
+                            <div class="details">
+                                <div class="listHead">
+                                    <h4>Malindu Adeesha</h4>
+                                    <p class="time"id="time">21.09PM</p>
+                                </div>
+                                <div class="message_p">
+                                    <p>hi how are you </p>
+                                    <b>2</b>
+                                </div>
+                            </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="rightSide" id="callRight">
+            <div></div>
+            <div class="text"><h2>chatapp for windows</h2>
+            </div>
+            <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send and receive messages without keeping your
+                phone online.<br> Use ChatApp on up to 4 linked devices and 1 phone at the same time.</p></div>
+
+        </div>
+        <div class="rightSideClick"></div>
+    </div>
+</section>
+<!--call-->
+<section id="call"class="call">
+    <div class="container">
+        <div class="leftSide">
+            <div class="header">
+                <h2>Call</h2>
+
+            </div>
+            <div class="search">
+                <div>
+                    <input type="text"placeholder="search or start a new call">
+                    <ion-icon name="search-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="details">
+                <div class="block">
+                    <div class="imgBx">
+                        <img src="assets/img/person.jpg" alt=""class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>Malindu Adeesha</h4>
+                            <p class="time">yesterday</p>
+                        </div>
+                        <div class="message_p">
+                            <p>missed </p>
+                            <b>1</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightSide"></div>
+    </div>
+</section>
+<!--status-->
+<section id="status"class="status">
+    <div class="container">
+        <div class="leftSide">
+            <div class="header">
+                <h2>Status</h2>
+            </div>
+
+            <div class="details">
+                <div class="block">
+                    <div class="imgBx">
+                        <img src="assets/img/person.jpg" alt=""class="cover">
+                    </div>
+                    <div class="details">
+                        <div class="listHead">
+                            <h4>My status</h4>
+                        </div>
+                        <div class="message_p">
+                            <p>yesterday , 2.45 PM </p>
+                        </div>
+                    </div>
+                </div>
+                <h5>Recent updates</h5>
+            </div>
+        </div>
+        <div class="rightSide"></div>
+    </div>
+</section>
+<section class="profileController">
+    <div class="profile">
+        <div class="Lside">
+            <div class="back"><ion-icon name="arrow-back-outline"></ion-icon></div>
+            <button class="return"><b>Profile</b><div id="select"></div></button>
+            <div class="icon"><ion-icon name="person-circle-outline"></ion-icon></div>
+        </div>
+        <div class="Rside"></div>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
